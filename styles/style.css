@@ -1,0 +1,39 @@
+
+/*This is the parent box that holds the three main children*/
+main {
+    display: flex;
+    justify-content: space-around;
+}
+
+h2 {
+    padding-left: .5em;
+}
+
+/*First child of main*/
+.fishOwned {
+    flex:2;
+    margin:.5em;
+    border:1px solid black;
+}
+
+/*Second child of main*/
+.tipsAndHarvest {
+    flex:2;
+    margin:.5em;
+    border:1px solid black;
+}
+/*These two are children of tips and harvest*/
+.travelTips {
+    border:1px solid greenyellow;
+}
+
+.harvestPlaces {
+    border:1px solid greenyellow;
+}
+
+/*Third child of main*/
+aside {
+    flex:1;
+    margin:.5em;
+    border:1px solid black;
+}
