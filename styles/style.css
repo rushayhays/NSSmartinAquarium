@@ -37,3 +37,21 @@ aside {
     margin:.5em;
     border:1px solid black;
 }
+/*This section is here to help format the pictures*/
+.fish-image {
+    width: 300px;
+    height: 150px;
+}
+.location-image {
+    width:150px;
+    height: 150px;
+}
+
+/*This section will format the cards*/
+.location-card {
+    display:flex;
+}
+
+.fish-card {
+    display:flex;
+}

@@ -3,6 +3,7 @@
 // import { getFish } from "./fishData.js";
 import { FishList } from "./fish/fishList.js";
 import { tipList } from "./tips/tipList.js"
+import { locationLister} from "./locations/locationList.js"
 
 //These two lines are trying to utilize getFish() Independently of FishList(), both must be removed now that 
 // getFish() is not be imported
@@ -12,7 +13,7 @@ import { tipList } from "./tips/tipList.js"
 
 FishList();
 tipList();
-
+locationLister();
 
 //some troubleshooting on tips
 // import { getTips } from "./tips/tipData.js";
