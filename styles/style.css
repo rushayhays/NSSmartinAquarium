@@ -9,8 +9,8 @@ h2 {
     padding-left: .5em;
 }
 
-/*First child of main*/
 .fishOwned {
+    /*First child of main*/
     flex:2;
     margin:.5em;
     border:1px solid black;
@@ -31,6 +31,7 @@ h2 {
     border:1px solid greenyellow;
 }
 
+
 /*Third child of main*/
 aside {
     flex:1;
@@ -39,17 +40,19 @@ aside {
 }
 /*This section is here to help format the pictures*/
 .fish-image {
-    width: 300px;
-    height: 150px;
+    max-width: 18.75em;
+    max-height: 9.375em;
 }
 .location-image {
-    width:150px;
-    height: 150px;
+    max-width:9.375em;
+    max-height: 9.375em;
+    padding: .5em .25em .5em 0;
 }
 
 /*This section will format the cards*/
 .location-card {
     display:flex;
+    border:tan 2px solid;
 }
 
 .fish-card {
