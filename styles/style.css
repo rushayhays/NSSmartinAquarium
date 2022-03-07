@@ -1,13 +1,14 @@
 
 /*This is the parent box that holds the three main children*/
+body {
+    background-image: url("/images/blue-lines-wallpaper-preview.jpg");
+    background-repeat: no-repeat;
+}
 main {
     display: flex;
     justify-content: space-around;
 }
 
-h2 {
-    padding-left: .5em;
-}
 
 .fishOwned {
     /*First child of main*/
@@ -16,13 +17,36 @@ h2 {
     border:1px solid black;
 }
 
+h2 {
+    padding-left: .5em;
+}
+/*This area is meant to format the cards*/
+.fishList {
+    /* background-color: #38AECC; */
+    padding-top: 3em;
+   
+}
+.fish-card {
+    border:tan solid 3px;
+    display:flex;
+    /* align-items: center; */
+    padding: 4px 0;
+    margin: 2em 0;
+}
+
 /*Second child of main*/
 .tipsAndHarvest {
     flex:2;
     margin:.5em;
     border:1px solid black;
+    height: fit-content;
 }
 /*These two are children of tips and harvest*/
+h2 {
+    background-color: #183446;
+    color:white;
+}
+
 .travelTips {
     border:1px solid greenyellow;
 }
