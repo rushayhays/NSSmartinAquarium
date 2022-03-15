@@ -1,0 +1,125 @@
+{
+    "fishes": [
+        {
+            "species":"Pipefish",
+            "length":8,
+            "location":"Great Barrier Reef, Australia",
+            "saltwater":true,
+            "image":"pipeFish.jpg",
+            "name":"Slinky",
+            "diet":"pellets"
+        
+        },
+        {
+            "species":"Mandarin fish",
+            "length":5,
+            "location":"Honolulu, Hawaii",
+            "saltwater":true,
+            "image":"mandarin-fish.jpg",
+            "name":"Bluey",
+            "diet":"pellets"
+        
+        },
+        {
+            "species":"Orange Spotted Filefish",
+            "length":4,
+            "location":"Jamaica",
+            "saltwater":true,
+            "image":"orange-spotted-filefish.jpg",
+            "name":"Spots",
+            "diet":"pellets"
+        
+        },
+        {
+            "species":"Orange Spotted Soldierfish",
+            "length":5,
+            "location":"Jamaica",
+            "saltwater":true,
+            "image":"orange-spotted-filefish.jpg",
+            "name":"Spots",
+            "diet":"pellets"
+        
+        },
+        {
+            "species":"Orange Spotted fish",
+            "length":5,
+            "location":"Jamaica",
+            "saltwater":true,
+            "image":"orange-spotted-filefish.jpg",
+            "name":"Spots",
+            "diet":"pellets"
+        
+        },
+        {
+            "species":" Holy Mandarin fish",
+            "length":9,
+            "location":"Honolulu, Hawaii",
+            "saltwater":true,
+            "image":"mandarin-fish.jpg",
+            "name":"Bluey",
+            "diet":"pellets"
+        
+        },
+        {
+            "species":" Soldier Mandarin fish",
+            "length":10,
+            "location":"Honolulu, Hawaii",
+            "saltwater":true,
+            "image":"mandarin-fish.jpg",
+            "name":"Bluey",
+            "diet":"pellets"
+        
+        },
+        {
+            "species":"Holy Pipefish",
+            "length":12,
+            "location":"Great Barrier Reef, Australia",
+            "saltwater":true,
+            "image":"pipeFish.jpg",
+            "name":"Slinky",
+            "diet":"pellets"
+        
+        },
+        {
+            "species":"Soldier Pipefish",
+            "length":20,
+            "location":"Great Barrier Reef, Australia",
+            "saltwater":true,
+            "image":"pipeFish.jpg",
+            "name":"Slinky",
+            "diet":"pellets"
+        
+        }
+    ],
+    "locations":[
+        {
+            "country":"Australia",
+            "blurb":"The great Barrier reef is a spectacular harvesting ground",
+            "image":"greatBarrierReef.jpg"
+        },
+        {
+            "country":"Hawaii",
+            "blurb":"Honolulu's reefs are full of color",
+            "image":"hawaiiReef.jpg"
+        },
+        {
+            "country":"Jamaica",
+            "blurb":"Discovery Bay in Jamaica has benefitted from recent conservation efforts",
+            "image":"jamaicaReef.jpg"
+        }
+    ],
+    "tips":[
+        {
+            "id":1,
+            "tip":"Properly condition your water. Use biological agents or supplements that clear out tap water properties such as minerals and chemical additives."
+        },
+        {
+            "id":2,
+            "tip":"Maintain pH balance and other chemical levels. You can monitor the pH levels of your tank by purchasing a pH test kit. Saltwater fish thrive well in pH levels between 7.6 and 8.4. You will also need to regularly check your tank for the right levels of nitrate, nitrite, and ammone."
+        },
+        {
+            "id":3,
+            "tip":"Avoid overfeeding your fish. This one is a cardinal rule in maintaining an aquarium. Overfeeding your fish can cause a variety of problems Maintain a consistent feeding schedule and provide an appropriate amount of food."
+        }
+    ]
+}

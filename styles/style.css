@@ -1,19 +1,47 @@
 
 /*This is the parent box that holds the three main children*/
+body {
+    /* background-color:#00B2CA; */
+}
+
+header {
+    margin-bottom: 50px;
+    background-color: #183446;
+    color: white;
+}
+
+h1 {
+    padding-left:10px;
+}
 main {
     display: flex;
     justify-content: space-around;
 }
 
-h2 {
-    padding-left: .5em;
-}
 
-/*First child of main*/
 .fishOwned {
+    /*First child of main*/
     flex:2;
     margin:.5em;
     border:1px solid black;
+    background-color: #046E8F;
+}
+
+h2 {
+    padding-left: .5em;
+}
+/*This area is meant to format the cards*/
+.fishList {
+    /* background-color: #38AECC; */
+    padding-top: 3em;
+   
+}
+.fish-card {
+    border:tan solid 3px;
+    display:flex;
+    /* align-items: center; */
+    padding: 4px 0;
+    margin: 2em 0;
 }
 
 /*Second child of main*/
@@ -21,8 +49,15 @@ h2 {
     flex:2;
     margin:.5em;
     border:1px solid black;
+    height: fit-content;
+    background-color: #046E8F;
 }
 /*These two are children of tips and harvest*/
+h2 {
+    background-color: #183446;
+    color:white;
+}
+
 .travelTips {
     border:1px solid greenyellow;
 }
@@ -31,25 +66,29 @@ h2 {
     border:1px solid greenyellow;
 }
 
+
 /*Third child of main*/
 aside {
     flex:1;
     margin:.5em;
     border:1px solid black;
+    background-color: #046E8F;
 }
 /*This section is here to help format the pictures*/
 .fish-image {
-    width: 300px;
-    height: 150px;
+    max-width: 18.75em;
+    max-height: 9.375em;
 }
 .location-image {
-    width:150px;
-    height: 150px;
+    max-width:9.375em;
+    max-height: 9.375em;
+    padding: .5em .25em .5em 0;
 }
 
 /*This section will format the cards*/
 .location-card {
     display:flex;
+    border:tan 2px solid;
 }
 
 .fish-card {
