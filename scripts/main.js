@@ -15,7 +15,8 @@ FishList();
 tipList();
 locationLister();
 
-//some troubleshooting on tips
-// import { getTips } from "./tips/tipData.js";
-// const tipparagraphs= getTips();
-// console.log(tipparagraphs);
+import { getFishes, getLocations, getTips } from "./data/dataManager.js";
+
+console.log(getFishes())
+console.log(getLocations())
+console.log(getTips())
